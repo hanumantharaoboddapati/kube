@@ -52,7 +52,7 @@
      - wercker/add-ssh-key:
          keyname: hanu
      - add-to-known_hosts:
-         hostname: $DEV_REMOTE_HOST
+         hostname: $DEV_REMOTE_HOST  
      - script:
          name: Pull newest docker images
          code: |
